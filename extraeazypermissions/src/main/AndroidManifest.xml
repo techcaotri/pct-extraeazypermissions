@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pct.extraeazypermissions">
+    <application>
+        <activity
+            android:name=".ui.AppSettingsDialogHolderActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/AppTheme.Transparent"/>
+    </application>
+</manifest>

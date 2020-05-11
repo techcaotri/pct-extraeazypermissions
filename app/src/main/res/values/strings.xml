@@ -1,0 +1,11 @@
+<resources>
+    <string name="rationale_ask">This app may not work correctly without the requested permissions.</string>
+    <string name="rationale_ask_again">
+        This app may not work correctly without the requested permissions.
+        Open the app settings screen to modify app permissions.
+    </string>
+    <string name="title_settings_dialog">Permissions Required</string>
+    <string name="title_settings_dialog_vi">Xin Cấp Quyền</string>
+    <string name="rational_ask_vi">Ứng dụng sẽ không hoạt động nếu không có quyền</string>
+    <string name="app_name">PCT Eazypermissions Sample</string>
+</resources>

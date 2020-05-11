@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.MainFragment">
+
+    <Button
+        android:id="@+id/location_permission_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Req. Location Permission" />
+
+    <Button
+        android:id="@+id/contact_permission_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Req. Contact Permission" />
+
+    <Button
+        android:id="@+id/camera_permission_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Req. Camera Permission"/>
+
+    <Button
+        android:id="@+id/location_contact_camera_permission_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Req. All"/>
+
+</LinearLayout>
